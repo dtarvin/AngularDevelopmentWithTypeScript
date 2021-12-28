@@ -17,6 +17,8 @@ export class AppComponent {
   
   products$: Observable<Product[]>;
 
+  products2: String;
+  
   constructor(private productService: ProductService) {}
 
   ngOnInit() {
